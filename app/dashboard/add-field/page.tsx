@@ -2,7 +2,7 @@
 'use client';
 
 import React, { useState } from 'react';
-import { useRouter } from 'navigation'; // Next.js navigation pentru redirectionare
+import { useRouter } from 'next/navigation'; // Next.js navigation pentru redirectionare
 import MapComponent from '@/components/MapComponent';
 
 export default function AddFieldPage() {
