@@ -24,9 +24,7 @@ export default function MapComponent({ onPolygonCreated }: MapComponentProps) {
   const [L, setLeaflet] = useState<any>(null);
 
   useEffect(() => {
-    // Încărcăm stilurile CSS necesare pentru Leaflet și modulul de desenat
-    import('leaflet/dist/leaflet.css');
-    import('leaflet-draw/dist/leaflet.draw.css');
+   
 
     // Încărcăm biblioteca Leaflet nativă pe client pentru calculele de arie
     import('leaflet').then((leafletInstance) => {
